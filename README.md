@@ -1,4 +1,4 @@
-# POLL-ALERTER
+# Poll-Alerter-Extension
 **Site: https://pollev.com/**
 
 Usage: 
