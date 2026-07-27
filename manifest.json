@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "POLL ALERTER",
+  "version": "1.0",
+  "description": "",
+  "action": {
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.pollev.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ]
+}
